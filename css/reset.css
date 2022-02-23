@@ -72,3 +72,6 @@ embed{
 iframe{
     cursor: pointer;
 }
+body{
+    background-color: #000;
+}

@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mago</title>
+    
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 
     <!-- css link -->
     <link rel="stylesheet" href="./css/font.css">
@@ -17,14 +19,14 @@
     <!-- plugin -->
     <script src="./plugin/js/jquery.fullpage.min.js"></script>
     <link rel="stylesheet" href="./plugin/css/jquery.fullpage.min.css">
-
+    
 </head>
 <body>
     <header>
         <div class="inner">
             <div class="col">
                 <h1 class="logo">
-                    <a href="#">
+                    <a href="./index.html">
                         <img src="./images/common/logo.png" alt="logo">
                     </a>
                 </h1>
@@ -33,13 +35,13 @@
             <div class="col">
                 <ul class="menu">
                     <li>
-                        <a href="#">VISION</a>
+                        <a href="#section2">VISION</a>
                     </li>
                     <li>
-                        <a href="#">SERVICE</a>
+                        <a href="#section3">SERVICE</a>
                     </li>
                     <li>
-                        <a href="#">MAGO IN NUMBERS</a>
+                        <a href="#section4">MAGO IN NUMBERS</a>
                     </li>
                 </ul>
             </div>
@@ -58,13 +60,16 @@
                     <p>
                         당신의 아이템에 블록체인을 더해줄, MAGO. 지금 여기서 만나보세요.
                     </p>
-                    <a href="#">
+                    <a href="http://pf.kakao.com/_lWxoxab" target="_blank">
                         카카오채널로 문의하기
                     </a>
                 </div>
             </div>
+            <button class="down-btn strok-btn-style">
+                <img src="./images/icon/ico-downWhiteArrow.svg" alt="down icon">
+            </button>
         </section>
-        <section class="section">
+        <section class="section" data-anchor="section2">
             <div class="sec-bg"></div>
             <div class="inner">
                 <div class="sec-title alignCenter row">
@@ -92,84 +97,211 @@
                 </div>
             </div>
         </section>
-        <section class="section">
+        <section class="section ">
+            <div class="sec-bg active"></div>
+            <div class="sec-bg"></div>
+            <div class="sec-bg"></div>
+            <div class="sec-bg"></div>
+            <div class="sec-bg"></div>
             <div class="sec-bg"></div>
             <div class="inner">
-                <div class="line-title">
-                    <span>SERVICES</span>
-                </div>
-                <div class="tab-content">
-                    <div class="tab-title">
-                        <h3>1. 코인 기획</h3>
-                        <h4>Coin Design</h4>
+                <div class="content justifyLeft alignCenter col">
+                    <div class="line-title">
+                        <span>SERVICES</span>
                     </div>
-                    <p>
-                        아이템과 비즈니스에 맞는 적용 기술, 발행량, 보상 체계, 정책 수립 및 스마트 컨트랙트 활용까지 
-                        <br>
-                        토큰 기획과 관련된 모든 서비스를 지원합니다.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="section">
-            <div class="sec-bg"></div>
-            <div class="inner">
-                <div class="sec-title alignCenter row">
-                    <h1>
-                        <img src="./images/common/big-logo.svg" alt="logo">
-                    </h1>
-                    <div class="sec-title-text">
-                        <span>VISION</span>
-                        <h2>
-                            세계를 이끄는 블록체인
-                        </h2>
-                        <h3>
-                            대한민국에는 <span class="fc-red">마고 컨설팅</span>이 있습니다.
-                        </h3>
+                    <div class="tab-content">
+                        <div class="tab-title">
+                            <h3>1. 코인 기획</h3>
+                            <h4>Coin Design</h4>
+                        </div>
                         <p>
-                            IT 강국이지만 블록체인 분야에선 후발주자에 불과한 대한민국.
+                            아이템과 비즈니스에 맞는 적용 기술, 발행량, 보상 체계, 정책 수립 및 스마트 컨트랙트 활용까지 
                             <br>
-                            가까운 미래에는 대한민국의 기술과 프로젝트들이
-                            <br>
-                            세계 시장을 리드할 날이 올 것을 믿고,
-                            <br>
-                            마고는 묵묵히 수많은 국내외 프로젝트들을 만들어가고 있습니다.                            
+                            토큰 기획과 관련된 모든 서비스를 지원합니다.
                         </p>
                     </div>
-                </div>
-            </div>
-        </section>
-        <section class="section">
-            <div class="sec-bg"></div>
-            <div class="inner">
-                <div class="sec-title alignCenter row">
-                    <h1>
-                        <img src="./images/common/big-logo.svg" alt="logo">
-                    </h1>
-                    <div class="sec-title-text">
-                        <span>VISION</span>
-                        <h2>
-                            세계를 이끄는 블록체인
-                        </h2>
-                        <h3>
-                            대한민국에는 <span class="fc-red">마고 컨설팅</span>이 있습니다.
-                        </h3>
+                    <div class="tab-button-wrap">
+                        <button class="tab-btn active">
+                            <div class="content">
+                                <img src="./images/icon/ico-tab01.svg" alt="tab icon">
+                                <p>코인 기획</p>
+                            </div>
+                            <div class="bg">
+                                <span>01</span>
+                            </div>
+                        </button>
+                        <button class="tab-btn">
+                            <div class="content">
+                                <img src="./images/icon/ico-tab02.svg" alt="tab icon">
+                                <p>백서 작성</p>
+                            </div>
+                            <div class="bg">
+                                <span>02</span>
+                            </div>
+                        </button>
+                        <button class="tab-btn">
+                            <div class="content">
+                                <img src="./images/icon/ico-tab03.svg" alt="tab icon">
+                                <p>블록체인 개발</p>
+                            </div>
+                            <div class="bg">
+                                <span>03</span>
+                            </div>
+                        </button>
+                        <button class="tab-btn">
+                            <div class="content">
+                                <img src="./images/icon/ico-tab04.svg" alt="tab icon">
+                                <p>마케팅 및 성장</p>
+                            </div>
+                            <div class="bg">
+                                <span>04</span>
+                            </div>
+                        </button>
+                        <button class="tab-btn">
+                            <div class="content">
+                                <img src="./images/icon/ico-tab05.svg" alt="tab icon">
+                                <p>컨설팅</p>
+                            </div>
+                            <div class="bg">
+                                <span>05</span>
+                            </div>
+                        </button>
+                        <button class="tab-btn ">
+                            <div class="content">
+                                <img src="./images/icon/ico-tab06.svg" alt="tab icon">
+                                <p>기타 서비스</p>
+                            </div>
+                            <div class="bg">
+                                <span>06</span>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="tab-controller">
+                        <button class="prev-btn strok-btn-style">
+                            <img src="./images/icon/ico-leftWhiteArrow.svg" alt="left arrow">
+                        </button>
                         <p>
-                            IT 강국이지만 블록체인 분야에선 후발주자에 불과한 대한민국.
-                            <br>
-                            가까운 미래에는 대한민국의 기술과 프로젝트들이
-                            <br>
-                            세계 시장을 리드할 날이 올 것을 믿고,
-                            <br>
-                            마고는 묵묵히 수많은 국내외 프로젝트들을 만들어가고 있습니다.                            
+                            <span class="current">1</span>
+                            /
+                            <span class="total">6</span>
                         </p>
+                        <button class="next-btn strok-btn-style">
+                            <img src="./images/icon/ico-rightWhiteArrow.svg" alt="right arrow">
+                        </button>
                     </div>
                 </div>
             </div>
         </section>
+        <section class="section ">
+            <div class="sec-bg"></div>
+            <div class="inner">
+                <div class="content justifyLeft alignCenter col">
+                    <div class="line-title">
+                        <span>MAGO IN NUMBERS</span>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-title">
+                            <h3>국내 최대 프로젝트 경험</h3>
+                        </div>
+                        <p>
+                            마고 컨설팅은 기획자, 작가, 개발자, 마케터 등 각 분야 스페셜리스트들이 모여 
+                            <br>
+                            다양한 분야의 블록체인 프로젝트를 구축해왔습니다.
+                        </p>
+                    </div>
+                    <div class="count-list">
+                        <div class="count-item">
+                            <h4>
+                                <span id="count1">70</span>
+                                <img src="./images/icon/ico-plus.svg" alt="plus icon">
+                            </h4>
+                            <p>백서작성</p>
+                        </div>
+                        <div class="count-item">
+                            <h4>
+                                <span id="count2">9</span>
+                                <img src="./images/icon/ico-plus.svg" alt="plus icon">
+                            </h4>
+                            <p>
+                                ISMS 인증 획득
+                                <br>
+                                (컨설팅 및 운영 참여)
+                            </p>
+                        </div>
+                        <div class="count-item">
+                            <h4>
+                                <span id="count3">60</span>
+                                <img src="./images/icon/ico-plus.svg" alt="plus icon">
+                            </h4>
+                            <p>디파이 및 지갑 개발</p>
+                        </div>
+                        <div class="count-item">
+                            <h4>
+                                <span id="count4">30</span>
+                                <img src="./images/icon/ico-plus.svg" alt="plus icon">
+                            </h4>
+                            <p>각 분야 파트너사</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="section fp-auto-height">
+            <div class="inner">
+                <ul>
+                    <li>
+                        <h1>
+                            <img src="./images/common/f-logo.png" alt="logo">
+                        </h1>
+                        <h2>(주)온전한소리</h2>
+                        <a href="tel:+82)10-6787-5539" class="tel-btn">
+                            <span><img src="./images/icon/ico-tel.svg" alt="tel icon"></span>
+                            +82)10-6787-5539
+                        </a>
+                        <a href="mailto:e-writer@naver.com" class="tel-btn">
+                            <span><img src="./images/icon/ico-mail.svg" alt="mail icon"></span>
+                            e-writer@naver.com
+                        </a>
+                    </li>
+                    <li>
+                        <h3>사무실 위치 안내</h3>
+                        <h3 class="mt">서초</h3>
+                        <p>
+                            서울특별시 서초구 서초동 1718-9 서현빌딩 4층
+                        </p>
+                        <h3 class="mt">광명센터</h3>
+                        <p>
+                            경기도 광명시 일직동 276-8, 2F 206~208호
+                        </p>
+                    </li>
+                    <li>
+                        <h3>바로가기</h3>
+                        <a href="http://pf.kakao.com/_lWxoxab" target="_blank">
+                            <img src="./images/icon/ico-kakaotalk.svg" alt="kakao icon">
+                            카카오채널
+                        </a>
+                        <h3 class="mt">계열사</h3>
+                        <a href="#" target="_blank">
+                            <img src="./images/icon/ico-share.svg" alt="share icon">
+                            빅스톤
+                        </a>
+                    </li>
+                </ul>
+                <p class="copyright">
+                    Copyright(C) MAGO All Rights Reserved.
+                </p>
+            </div>
+        </footer>
     </main>
+    <div class="top-btn-wrap">
+        <div class="inner">
+            <button class="top-btn strok-btn-style">
+                TOP
+            </button>
+        </div>
+    </div>
 
-    <script src="./js/fullpage.js"></script>
+    <script src="./js/fullpage.js" type="module"></script>
     <script src="./js/tab.js"></script>
 </body>
 </html>
