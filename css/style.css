@@ -179,6 +179,7 @@ header .col p{
 }
 header .logo img{
     width:  85px;
+    margin-top: 5px;
 }
 header .menu{
     display: flex;
